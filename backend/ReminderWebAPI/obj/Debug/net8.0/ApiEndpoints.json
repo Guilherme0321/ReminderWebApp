@@ -1,0 +1,44 @@
+[
+  {
+    "ContainingType": "ReminderWebAPI.Controllers.ReminderController",
+    "Method": "CreateReminder",
+    "RelativePath": "api/reminder",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "viewModel",
+        "Type": "ReminderWebAPI.ViewModels.ReminderViewModels",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ReminderWebAPI.Controllers.ReminderController",
+    "Method": "DeleteReminder",
+    "RelativePath": "api/reminder",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "viewModel",
+        "Type": "ReminderWebAPI.ViewModels.ReminderViewModels",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ReminderWebAPI.Controllers.ReminderController",
+    "Method": "GetAll",
+    "RelativePath": "api/reminder",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
